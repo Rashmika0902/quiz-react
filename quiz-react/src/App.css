@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+  font-family: arial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Menu {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: lightseagreen;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Menu input, button {
+  width: 300px;
+  height: 50px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  box-shadow: 3px 3px 2px 1px rgb(69, 66, 66);
+
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.Quiz {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: lightseagreen;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Menu, .Quiz, .EndScreen h1 {
+  color: white;
+}
+
+.EndScreen {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: lightseagreen;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#nextQuestion {
+  width: 200px;
+  box-shadow: 3px 3px 2px 1px rgb(69, 66, 66);
+}
+
+h3 {
+  color: #ffffff;
+}
+
+.questions button.selected {
+  /* Apply selected styles */
+  background-color: rgb(11, 40, 79);
+  color: white;
+  box-shadow: 3px 3px 4px 1px rgb(78, 69, 78);
+}
